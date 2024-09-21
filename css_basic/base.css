@@ -56,12 +56,15 @@ table {
 /* Fonts and colors */
 
 body {
+  background-color: rgb(185, 208, 216);
 	font-family: 'Josefin Sans', serif;
-	color: rgba(0, 0, 0, 0.8);
+	/*color: rgba(0, 0, 0, 0.8);*/
 }
 h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
+  color: rgb(10, 0, 97);
 }
+
 article {
 }
 header {
@@ -72,7 +75,7 @@ header a {
 	color: rgba(0, 0, 0, 0.8);
 }
 aside {
-	background: #FAFAFA;
+	background: #b7f0b1;
 }
 aside p {
 	border: 1px solid #bbb;
@@ -132,8 +135,10 @@ header li a {
 	margin: 0 10px;
 }
 header li.logo {
-	font-size: 36px;
+	font-size: 40px;
+  color: #bd1717;
 }
+
 header a {
 	text-decoration: none;
 }
