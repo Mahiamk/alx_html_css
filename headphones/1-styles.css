@@ -1,0 +1,100 @@
+.intro {
+  background-color: white;
+  margin-top: 40px;
+  
+
+
+}
+.intro h1{
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-top: 100px;
+  text-align: center;
+  align-items: center;
+  
+}
+.intro blockquote {
+  font-size: 18px;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+}
+.intro div {
+  display: inline-block;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 9%;
+  text-align: center;
+  margin: 20px;
+}
+.intro h3 {
+  font-size: 14px;
+  margin-top: 120px;
+  color: #333;
+}
+
+/* Styling the paragraph below each icon */
+.intro p {
+  font-size: 14px;
+  color: #666;
+}
+/* Sample icon placeholders for the divs (you can replace them with real images or icons) */
+.styled1-div::before, 
+.styled2-div::before, 
+.styled3-div::before, 
+.styled4-div::before {
+  content: '🎧'; /* You can replace this with your image or icon */
+  font-size: 80px;
+  display: block;
+  margin: 10px auto;
+  color: #ff6b6b; /* Change the color of the icon */
+}
+
+.styled2-div::before {
+  content: '🎬';
+}
+
+.styled3-div::before {
+  content: '🎵';
+}
+
+.styled4-div::before {
+  content: '👂';
+}
+@media (max-width: 480px) {
+  .intro h1 {
+    font-size: 30px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  .intro blockquote {
+    font-size: 16px;
+    margin-bottom: 20px;
+    max-width: 90%;
+  }
+
+  .intro div {
+    width: 40%;
+    margin: 10px auto;
+  }
+
+  .intro h3 {
+    font-size: 12px;
+    margin-top: 60px;
+  }
+
+  .intro p {
+    font-size: 12px;
+  }
+
+  .styled1-div::before, 
+  .styled2-div::before, 
+  .styled3-div::before, 
+  .styled4-div::before {
+    font-size: 60px;
+  }
+}
+
