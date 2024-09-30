@@ -123,24 +123,39 @@ nav a:hover {
     margin-right: 0;
   }
 }
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 footer {
   background-color: black;
   color: white;
+  height: 200px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
 }
 
 footer .logo img {
   height: 30px;
-  margin-bottom: 20px;
-  margin-left: 100px;
+  position: absolute;
+  top: 40px;
+  left: 30px;
 }
 
 footer .social-media {
-  margin-bottom: 20px;
+  position: absolute;
+  top: 75px;
+  right: 100px;
 }
 
 footer .social-media a {
   color: rgb(255, 255, 255);
-  margin: 0 10px;
+  margin: 10px;
   font-size: 24px;
   text-decoration: none;
 }
@@ -150,19 +165,37 @@ footer .social-media a:hover {
 }
 
 footer p {
-  margin-top: 80px;
+  position: relative;
+  top: 150px;
 }
 
 /* Responsive design for mobile devices */
 @media (max-width: 480px) {
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
   footer .logo img {
-    height: 40px;
+    height: 20px;
+    margin-left: 0;
+  }
+
+  footer .social-media {
+    position: static;
+    margin-bottom: 20px;
   }
 
   footer .social-media a {
     font-size: 20px;
-    margin: 0 5px;
+    margin: 5px;
+  }
+
+  footer p {
+    margin-bottom: 50px;
+    margin-right: 0;
   }
 }
+
 
 

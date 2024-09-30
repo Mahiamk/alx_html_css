@@ -1,0 +1,205 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: rgb(2, 2, 2);
+}
+
+header {
+  background-image: url("CSS_Advancedpic/Object.png");
+  background-color: rgba(76, 175, 80, 0.8);
+  color: rgb(10, 10, 10);
+  padding: 35%;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: top;
+  margin: 0;
+}
+nav {
+  display: flex;
+  align-items: top;
+  justify-content: flex-end;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.logo {
+  background-image: url('CSS Advanced/logo.png');
+  background-size: contain;
+  display: inline-block;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  position: absolute;
+  top: 10px; /* Adjust top position as needed */
+  left: 10px; /* Adjust left position as needed */
+}
+
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-left: 40px;
+  margin-bottom: 10px;
+  gap: 20px;
+  
+  
+}
+
+nav a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 1rem;
+  align-items: end;
+}
+
+/* Hero Section */
+.hero {
+  background: url('./CSS_Advancedpic/hero-background.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align-last: auto;
+  margin: 0;
+}
+.hero .tags{
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  text-align-last: auto;
+  margin: 0px;
+
+}
+
+.hero h1 {
+  font-size: 4rem;
+  margin: 0;
+  color: white;
+}
+
+.hero .tags span {
+  font-size: 1.2rem;
+  margin-right: 0;
+  color: #b58bf0; /* From Figma */
+}
+
+button {
+  background-color: #b58bf0; /* From Figma */
+  color: #030303;
+  padding: 15px 30px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+/* Profiles Section */
+.profiles {
+  padding: 4000px 20px;
+  text-align: center;
+  display: flex;
+}
+
+.profile-cards {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.profile img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.profile h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #0e0d0d;
+}
+
+/* Testimonial Section */
+.testimonial {
+  background-color: #5a58a8;
+  padding: 50px;
+  text-align: center;
+}
+
+.testimonial img {
+  border-radius: 50%;
+  width: 100px;
+}
+
+.testimonial blockquote {
+  font-size: 1.5rem;
+  margin: 20px 0;
+}
+
+/* Tutorials Section */
+.tutorial-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.tutorial img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.rating i {
+  color: #ffc107;
+}
+
+/* Membership Section */
+.membership {
+  background-color: #333;
+  padding: 50px;
+  text-align: center;
+}
+
+.membership img {
+  width: 50px;
+}
+
+button {
+  background-color: #b58bf0;
+  padding: 10px 20px;
+}
+
+/* FAQ Section */
+.faq {
+  padding: 50px 20px;
+}
+
+.faq-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.faq-item p {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+/* Footer */
+footer {
+  background-color: #282c34;
+  padding: 20px;
+  text-align: center;
+}
+
+footer img {
+  width: 100px;
+  height: 40px;
+}
+
+.social-icons i {
+  color: white;
+  margin: 0 10px;
+}
